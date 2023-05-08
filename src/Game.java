@@ -5,6 +5,7 @@ public class Game {
     static Scanner input = new Scanner(System.in);
 
     public static void play(){
+        System.out.println("Press Enter to extract a number\nWrite all to see all the extracted numbers\nWrite last to see last extracted number");
         while(!bag.getNumberInBag().isEmpty()){
             switch (input.nextLine()){
                 case "last" -> {
